@@ -24,7 +24,7 @@ def banner():
 
 
 def initial_d():
-    parser = argparse.ArgumentParser(description='FirstSnoop - Grab domains from a website and map them to IPs for recon')
+    parser = argparse.ArgumentParser(description='InitialDNS - Grab domains from a website and map them to IPs for recon')
     parser.add_argument('--url',help=' Add the URL you want to pull down for snooping.', required=False)
     args = parser.parse_args()
     banner()
